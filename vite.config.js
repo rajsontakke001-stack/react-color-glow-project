@@ -1,7 +1,9 @@
+```javascript
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/react-color-glow-project/',
   plugins: [react()],
+  base: '/react-color-glow-project/',
 })
+```
